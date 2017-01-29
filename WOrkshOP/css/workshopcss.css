@@ -1,5 +1,5 @@
 body{
-      background-color:#FFFFFF;
+      background-color:#000;
         font-family: Helvetica, Arial, sans-serif;
         margin:20px;
     }
@@ -10,15 +10,9 @@ body{
     
     .container{
     	width:100%;
-    	height:550px;
-    	background:#C4C4C4;
+    	height:595px;
+    	background:url(http://cdn.mysitemyway.com/etc-mysitemyway/webtreats/assets/posts/973/full/tileable-dark-wood-textures-6.jpg);
     	overflow: hidden;
-    }
-
-    .scrollable {
-    	height: 100%;
-    	overflow-y: auto;
-    	position: absolute;
     }
     
     .panel{
@@ -31,11 +25,12 @@ body{
 	.panel_tab{
 		height:100%;
 		overflow: hidden;
-		background-color:black;
+		background: url(https://s-media-cache-ak0.pinimg.com/736x/8e/18/1e/8e181e95015046b103ca2a934f760ee7.jpg);
 	}
 
 	.panel_content{
 		background-color: white;
+		overflow-y: auto;
 	}	
 	.button{
 	 float:right;
